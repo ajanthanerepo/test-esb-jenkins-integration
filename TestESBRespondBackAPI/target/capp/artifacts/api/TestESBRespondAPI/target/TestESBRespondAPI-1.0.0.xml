@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/respondBack" name="TestESBRespondAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/getResponse">
+        <inSequence>
+            <log level="full">
+                <property name="STATUS" value="[TestESBRespondAPI] Invoked."/>
+            </log>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

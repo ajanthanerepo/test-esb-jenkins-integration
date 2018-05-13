@@ -1,0 +1,3 @@
+task deployWSO2(type:Exec) {
+	commandLine 'mvn', 'clean', 'deploy', '-Dmaven.car.deploy.skip=false', '-Dmaven.deploy.skip=true'
+}

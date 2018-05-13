@@ -1,0 +1,5 @@
+rootProject.name ='test-esb-jenkins-integration'
+
+include 'TestESBRespondBackAPI'
+include 'TestESBRespondBackCAPP'
+
